@@ -8,6 +8,7 @@ export function loadMenu() {
     image.src = require('../assets/images/menu.png');
     image.alt = 'menu';
     image.style.maxWidth = '600px';
+    image.loading = 'lazy';
 
     const description = document.createElement('p');
     description.textContent = 'Welcome to the best restaurant in town! Enjoy our delicious meals.';
